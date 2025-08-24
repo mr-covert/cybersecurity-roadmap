@@ -6,7 +6,7 @@ This repo tracks my practical SOC Analyst + Python journey.
 
 
 ## Phase 1 – Foundations
-- [ ] Linux basics
+- [x] Linux basics
 - [ ] Windows basics
 - [ ] Networking basics
 - [ ] Python fundamentals
