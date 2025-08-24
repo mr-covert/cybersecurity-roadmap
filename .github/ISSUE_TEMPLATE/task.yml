@@ -1,0 +1,56 @@
+name: Roadmap Task
+description: Use this template to track a single cybersecurity task
+labels: ["good first task"]
+body:
+  - type: input
+    id: goal
+    attributes:
+      label: Goal
+      description: What do you want to achieve with this task?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Roadmap Phase
+      options:
+        - Phase 1 – Foundations
+        - Phase 2 – SOC Core
+        - Phase 3 – Labs
+        - Phase 4 – Advanced Blue
+        - Phase 5 – Career
+
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill Area
+      options:
+        - Linux
+        - Windows
+        - Networking
+        - Python
+        - SIEM
+        - IR
+        - Threat Intel
+        - NTA
+        - DFIR
+        - Cloud
+
+  - type: input
+    id: evidence
+    attributes:
+      label: Evidence Link
+      description: Link to notes, screenshots, repo, or write-up
+
+  - type: textarea
+    id: plan
+    attributes:
+      label: Plan
+      description: Steps you will take to complete this task
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Findings, blockers, or reflections
